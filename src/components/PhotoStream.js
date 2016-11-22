@@ -32,7 +32,7 @@ class PhotoStream extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://sammy-photos.herokuapp.com/api/allPhotos?sortBy=views")
+        axios.get("https://sammy-photos.herokuapp.com/api/allPhotos?sortBy=date&limitTo=40")
         .then((res) => {
             console.log("Response: ");
             console.log(res);

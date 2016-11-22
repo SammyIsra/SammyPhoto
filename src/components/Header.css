@@ -12,12 +12,20 @@ header.main_nav {
   background-image: url("title-background.jpg");
 }
 
+.bg-container {
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
 header .mask {
     margin-left: 0;
     margin-right: 0;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.65);
 }

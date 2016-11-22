@@ -6,6 +6,9 @@ class Header extends Component {
     render() {
         return (
             <header className="main_nav">
+                <div className="bg-container">
+                    <img src="title-background.jpg" alt="alt background img"></img>
+                </div>
                 <div className="mask">
                     <div className="title">
                         <a href="#">SAMMY ISRAWI</a>
@@ -17,6 +20,8 @@ class Header extends Component {
             </header>
         );
     }
+
+
 }
 
 export default Header;

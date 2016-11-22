@@ -21,7 +21,7 @@
   height: auto !important;
 }
 
-img:hover {
+.photo:hover {
   opacity: 0.8;
 }
 
