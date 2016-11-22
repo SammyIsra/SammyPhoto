@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 
+import './Header.css'
+
 class Header extends Component {
     render() {
         return (
-            <header className="main_nav green">
-                <div className="container">
-                    <div className="twelve columns">
-                        <div className="logo">
-                            <a href="#">SAMMY ISRAWI</a>
-                        </div>
+            <header className="main_nav">
+                <div className="mask">
+                    <div className="title">
+                        <a href="#">SAMMY ISRAWI</a>
+                    </div>
+                    <div className="subtitle">
+                        <p>PROGRAMMER | PHOTOGRAPHER</p>
                     </div>
                 </div>
             </header>

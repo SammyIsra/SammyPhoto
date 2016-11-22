@@ -21,6 +21,10 @@
   height: auto !important;
 }
 
+img:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 1200px) {
   #photos {
   -moz-column-count:    4;

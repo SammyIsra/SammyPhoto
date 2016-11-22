@@ -1,0 +1,46 @@
+ul.social {
+  display: block;
+  margin: 5% 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.social li {
+  font-size: 3em;
+  display: inline;
+  padding: 0 2%;
+}
+
+ul.social li a {
+  color: #666;
+}
+
+ul.social li.github a:hover {
+  color: rgb(59,89,152);
+}
+
+ul.social li.twitter a:hover {
+  color: rgb(0,172,237);
+}
+
+ul.social li.instagram a:hover {
+  color: rgb(81,127,237);
+}
+
+ul.social li.youtube a:hover {
+  color: rgb(187,0,0);
+}
+
+ul.social li.flickr a:hover {
+  color: rgb(255,0,132);
+}
+
+ul.social li.linkedin a:hover {
+  color: rgb(0,123,182);
+}
+
+p.copyright {
+  text-align: center;
+  color: #666;
+  font-size: 1em;
+}
