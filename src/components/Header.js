@@ -11,7 +11,7 @@ class Header extends Component {
                 </div>
                 <div className="mask">
                     <div className="title">
-                        <a href="#">SAMMY ISRAWI</a>
+                        <h1>SAMMY ISRAWI</h1>
                     </div>
                     <div className="subtitle">
                         <p>PROGRAMMER | PHOTOGRAPHER</p>

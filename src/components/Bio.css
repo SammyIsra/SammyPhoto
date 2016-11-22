@@ -1,0 +1,15 @@
+.bio-title {
+    font-family: 'Kaushan Script', 'Lobster', 'Satisfy', sans-serif;
+    color: #3f7f7c;
+}
+
+h2 {
+  font-size: 3em;
+  margin: 0.67em;
+}
+
+
+p.bio {
+  color: white;
+  font-size: 1.8em;
+}

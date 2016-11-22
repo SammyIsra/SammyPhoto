@@ -6,10 +6,9 @@ header {
 }
 
 header.main_nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url("title-background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .bg-container {
@@ -31,9 +30,9 @@ header .mask {
 }
 
 .title {
-  margin: 2% auto;
-  text-align: center;
-  font-size: 3.5em;
+    margin: 2% auto;
+    text-align: center;
+
 }
 
 .subtitle{
@@ -41,16 +40,17 @@ header .mask {
     color: white;
 }
 
-.title a{
-  color: white;
-  text-decoration: none;
-  border: 3px solid white;
-  text-transform: uppercase;
-  padding: 2px 10px 0px 10px;
-  margin: 0;
+.title h1{
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    text-transform: uppercase;
+    padding: 2px 10px 0px 10px;
+    margin: 0;
+    font-size: 4.5em;
 }
 
-.title a:hover {
-  background-color: white;
-  color: black;
+.title h1:hover {
+    background-color: white;
+    color: black;
 }
