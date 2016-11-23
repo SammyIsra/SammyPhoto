@@ -21,6 +21,10 @@
   height: auto !important;
 }
 
+.photo {
+  max-width: 100%;
+}
+
 .photo:hover {
   opacity: 0.8;
 }

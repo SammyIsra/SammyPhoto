@@ -1,24 +1,55 @@
+/* General Content
+______________________________________________________________ */
+
 .App {
   text-align: center;
+  background-color: rgb(51,51,51);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+p {
+    font-family: 'Lato', sans-serif;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+h2 {
+    font-family: 'Source Sans Pro', serif;
 }
 
-.App-intro {
-  font-size: large;
+.row {
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.green {
+  background-color: rgb(126, 181, 212);
+}
+
+body {
+  font-size: 1.75em;
+  color: black;
+}
+
+
+/* Larger than mobile */
+@media (max-width: 479px) {
+    .logo a {
+      font-size: 2em;
+    }
+    .main {
+      padding-top: 15%;
+    }
+    .portfolio img{
+      margin-bottom: 10%;
+    }
+    img.avatar {
+      margin-top: 15%;
+    }
+    h2.bio {
+      font-size: 2.5em;
+    }
+    p.bio {
+      font-size: 1.25em;
+      color: #3f7f7c;
+    }
+    ul.social li a {
+      font-size: .75em;
+    }
 }

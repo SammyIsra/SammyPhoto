@@ -5,7 +5,7 @@ import './Bio.css';
 class Bio extends Component {
     render() {
         return (
-            <div className="row green">
+            <div className="row">
                 <div className="container">
                     <div className="twelve columns">
                         <h2 className="bio-title">About Sammy Israwi</h2>
