@@ -11,15 +11,11 @@ p {
 }
 
 h2 {
-    font-family: 'Source Sans Pro', serif;
+    font-family: 'Satisfy', 'Source Sans Pro', serif;
 }
 
 .row {
   padding: 0;
-}
-
-.green {
-  background-color: rgb(126, 181, 212);
 }
 
 body {
