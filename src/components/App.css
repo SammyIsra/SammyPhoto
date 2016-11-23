@@ -8,10 +8,12 @@ ______________________________________________________________ */
 
 p {
     font-family: 'Source Sans Pro', 'Lato', sans-serif;
+    font-size: 1.8em;
 }
 
 h2 {
     font-family: 'Satisfy', 'Source Sans Pro', serif;
+    font-size: 3em;
 }
 
 .row {
@@ -26,24 +28,17 @@ body {
 
 /* Larger than mobile */
 @media (max-width: 479px) {
+    p{
+        font-size: 1.4em;
+    }
+    h2{
+        font-size: 2.5em;
+    }
     .logo a {
       font-size: 2em;
     }
     .main {
       padding-top: 15%;
-    }
-    .portfolio img{
-      margin-bottom: 10%;
-    }
-    img.avatar {
-      margin-top: 15%;
-    }
-    h2.bio {
-      font-size: 2.5em;
-    }
-    p.bio {
-      font-size: 1.25em;
-      color: #3f7f7c;
     }
     ul.social li a {
       font-size: .75em;
