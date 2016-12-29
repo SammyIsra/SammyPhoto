@@ -13,6 +13,7 @@ const Photo = (props) => {
             height={photo.height_m}
             width={photo.width_m}
             alt={photo.title}
+            onClick={ () => props.onSelectPhoto(photo) }
         />
     );
 }

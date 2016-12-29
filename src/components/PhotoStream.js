@@ -18,7 +18,7 @@ class PhotoStream extends Component {
 
     eachPhoto(){
         return this.state.photos.map((item, index) => {
-            return ( <Photo photo={item} key={index} /> )
+            return ( <Photo photo={item} key={index} onSelectPhoto={this.props.onSelectPhoto} /> )
         })
     }
 
