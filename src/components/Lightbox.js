@@ -11,14 +11,12 @@ const Lightbox = (props) => {
             <span className="close cursor" onClick={() => props.onClose()}>&times;</span>
             <div className="modal-content">
 
-                <div className="selected-pic">
-                    <img
-                        src={photo.url_m}
-                        alt="flickr"  />
-                </div>
+                <img
+                    src={photo.url_l}
+                    alt={photo.title}  />
 
                 <div className="caption-container">
-                    <p id="caption">{photo.title}</p>
+                    <p id="title">{photo.title}</p>
                 </div>
 
             </div>
