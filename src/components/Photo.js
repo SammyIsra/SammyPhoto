@@ -1,19 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 
+//Functional component of a photo in the stream
+const Photo = (props) => {
 
+    //prop photo
+    const photo = props.photo;
 
-class Photo extends Component {
-    render() {
-        return (
-            <img
-                className="photo"
-                src={this.props.photo.url_m}
-                height={this.props.photo.height_m}
-                width={this.props.photo.width_m}
-                alt={this.props.photo.title}
-            />
-        );
-    }
+    return (
+        <img
+            className="photo"
+            src={photo.url_m}
+            height={photo.height_m}
+            width={photo.width_m}
+            alt={photo.title}
+        />
+    );
 }
 
 export default Photo;
