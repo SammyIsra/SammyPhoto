@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import backgroundImage from '../resources/title-background.jpg'
 import './Header.css'
 
 class Header extends Component {
@@ -7,7 +8,7 @@ class Header extends Component {
         return (
             <header className="main_nav">
                 <div className="bg-container">
-                    <img src="title-background.jpg" alt="alt background img"></img>
+                    <img src={backgroundImage} alt="Full screen background"></img>
                 </div>
                 <div className="mask">
                     <div className="title">

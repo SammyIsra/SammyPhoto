@@ -17,6 +17,11 @@ header.main_nav {
     overflow: hidden;
 }
 
+.bg-container img {
+    animation: fadein 0.7s linear 0.5s;
+    animation-fill-mode: both;
+}
+
 header .mask {
     margin-left: 0;
     margin-right: 0;
