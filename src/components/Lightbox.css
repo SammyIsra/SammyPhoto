@@ -32,6 +32,8 @@
 .modal-content img {
     max-height: 80vh;
     max-width: 100%;
+    animation: fadein 0.3s linear 0.3s;
+    animation-fill-mode: both;
 }
 
 .modal-content:hover{
@@ -54,4 +56,9 @@
     color: #999;
     text-decoration: none;
     cursor: pointer;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }

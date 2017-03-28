@@ -23,19 +23,27 @@
 
 .photo {
   max-width: 100%;
+  animation: picture-off-hover 0.3s;
+  animation-fill-mode: forwards;
 }
 
 .photo:hover {
-  opacity: 0.8;
+  animation: picture-on-hover 0.2s;
+  animation-fill-mode: forwards;
 }
 
-/*@media (max-width: 1200px) {
-  #photos {
-  -moz-column-count:    4;
-  -webkit-column-count: 4;
-  column-count:         4;
-  }
-}*/
+/* Animation for when a pic is hovered */
+@keyframes picture-on-hover {
+  from {opacity: 1;}
+  to {opacity: 0.8;}
+}
+
+@keyframes picture-off-hover {
+  from {opacity: 0.8;}
+  to {opacity: 1;}
+}
+
+/* Change number of columns based on screen width */ 
 @media (max-width: 1000px) {
   #photos {
   -moz-column-count:    2;
