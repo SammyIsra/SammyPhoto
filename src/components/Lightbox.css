@@ -13,6 +13,7 @@
     width: 100%;
     height: 100%;
     background-color: rgb(51,51,51);
+    animation: lightbox-fadein 0.1s linear;
 }
 
 /* Modal Content */
@@ -32,8 +33,10 @@
 .modal-content img {
     max-height: 80vh;
     max-width: 100%;
-    animation: fadein 0.3s linear 0.3s;
-    animation-fill-mode: both;
+}
+
+.img-loaded {
+    animation: fadein 0.3s linear;
 }
 
 .modal-content:hover{
@@ -61,4 +64,9 @@
 @keyframes fadein {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+@keyframes lightbox-fadein {
+    from {opacity: 0;}
+    to {opacity: 0.85;}
 }

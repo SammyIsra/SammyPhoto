@@ -16,17 +16,16 @@ class PhotoStream extends Component {
         }
     }
 
-    eachPhoto(){
+    photos(){
         return this.state.photos.map((item, index) => {
             return ( <Photo photo={item} key={index} onSelectPhoto={this.props.onSelectPhoto} /> )
         })
     }
 
     render() {
-        var allPhotos = this.eachPhoto();
         return (
             <div id="photos">
-                {allPhotos}
+                {this.photos()}
             </div>
         );
     }
