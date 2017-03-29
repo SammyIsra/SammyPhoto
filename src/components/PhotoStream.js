@@ -31,7 +31,8 @@ class PhotoStream extends Component {
     }
 
     componentDidMount() {
-        axios.get("https://sammy-photos.herokuapp.com/api/photos?sortBy=date&limitTo=40")
+        const ROOT_URL = "http://sammyphotoapi-dev.us-east-1.elasticbeanstalk.com";
+        axios.get(`${ROOT_URL}/api/photos?sortBy=date&limitTo=40`)
         .then((res) => {
             console.log("Response: ");
             console.log(res);
