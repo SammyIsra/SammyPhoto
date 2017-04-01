@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Photographer.css';
 
 import Header from './Header';
 import PhotoStream from './PhotoStream';
@@ -7,7 +7,7 @@ import Footer from './Footer';
 import Bio from './Bio';
 import Lightbox from './Lightbox';
 
-class App extends Component {
+class Photographer extends Component {
 
     constructor(props){
         super(props);
@@ -54,4 +54,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Photographer;

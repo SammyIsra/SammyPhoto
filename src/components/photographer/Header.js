@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import backgroundImage from '../resources/title-background.jpg'
+import backgroundImage from '../../resources/title-background.jpg'
 import './Header.css'
 
 class Header extends Component {

@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+
+import Home from './components/Home';
 import './index.css';
 
+
 ReactDOM.render(
-  <App />,
+  <Router>
+    <Route path="" component={Home} />
+  </Router>,
   document.getElementById('root')
 );
