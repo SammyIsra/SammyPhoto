@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './Photographer.css';
 
-import Header from './Header';
+import Header from '../Header';
 import PhotoStream from './PhotoStream';
 import Footer from './Footer';
 import Bio from './Bio';
 import Lightbox from './Lightbox';
+
+import backgroundImage from '../../resources/title-background.jpg'
 
 class Photographer extends Component {
 
@@ -45,7 +47,7 @@ class Photographer extends Component {
         return (
             <div className="App">
                 {this.lightBox()}
-                <Header />
+                <Header backgroundImage={backgroundImage}/>
                 <Bio />
                 <PhotoStream onSelectPhoto={this.enterLightbox.bind(this)} />
                 <Footer />

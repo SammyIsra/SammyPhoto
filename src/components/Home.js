@@ -5,12 +5,13 @@ import {BrowserRouter as Router,
 
 import Photographer from './photographer/Photographer';
 import Developer from './developer/Developer';
+import Header from './Header';
 
 export default function(props) {
     return (
         <Router>
             <div>
-                <Route  exact path="/" component={Here} />
+                <Route exact path="/" component={Here} />
                 <Route exact path="/photographer" component={Photographer} />
                 <Route exact path="/developer" component={Developer} />
             </div>
@@ -20,6 +21,8 @@ export default function(props) {
 
 function Here(){
     return (
-        <h1>Home!</h1>
+        <div>
+            <Header backgroundColor="white" theme="light" />
+        </div>
     )
 }

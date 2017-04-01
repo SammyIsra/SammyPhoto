@@ -1,0 +1,120 @@
+/* Header and Navigation
+______________________________________________________________ */
+
+header {
+    height: 100vh
+}
+
+header.main-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg-container {
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-container img,
+.bg-container div {
+    animation: fadein 0.7s linear 0.5s;
+    animation-fill-mode: both;
+}
+
+.mask {
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main-nav.light {
+    background-color: white;
+}
+
+.main-nav.dark {
+    background-color: black;
+}
+
+.mask.light {
+    background-color: rgba(255,255,255,0.65);
+}
+
+.mask.dark {
+    background-color: rgba(0,0,0,0.65);
+}
+
+.title {
+    margin: 2% auto;
+}
+
+.title a{
+    text-decoration: none;
+}
+
+.title h1{
+    text-transform: uppercase;
+    padding: 2px 10px 0px 10px;
+    margin: 0;
+    font-size: 4.5em;
+}
+
+.subtitle{
+    font-size: 1.25em;
+}
+
+.subtitle a {
+    text-decoration: none;
+}
+
+/* Light header theme */
+.mask.light {
+    color: black;
+}
+
+.mask.light h1{
+    border: 3px solid black;
+}
+
+.mask.light h1:hover {
+    background-color: black;
+    color: white;
+}
+
+.mask.light a {
+    color: black;
+}
+
+/* Dark header theme */
+.mask.dark {
+    color: white;
+}
+
+.mask.dark h1 {
+    border: 3px solid white;
+}
+
+.mask.dark h1:hover{
+    background-color: white;
+    color: black;
+}
+
+.mask.dark a {
+    color: white;
+}
+
+
+
+
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
