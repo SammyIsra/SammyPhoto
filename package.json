@@ -19,6 +19,7 @@
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "build-deploy": "npm run build&&gh-pages -d build",
+    "deploy-demo": "surge --project ./build --domain sammyis-demo.surge.sh",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "serve": "serve build"
