@@ -5,6 +5,8 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './components/Home';
 import './index.css';
 
+import registerServiceWorker from './registerServiceWorker';
+
 
 ReactDOM.render(
   <Router>
@@ -12,3 +14,5 @@ ReactDOM.render(
   </Router>,
   document.getElementById('root')
 );
+
+registerServiceWorker();

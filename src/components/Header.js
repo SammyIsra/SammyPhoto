@@ -29,7 +29,7 @@ class Header extends Component {
 
     render() {
 
-        const theme = this.themeClass()
+        const theme = this.themeClass();
 
         return (
             <header className={`main-nav ${theme}`}>
