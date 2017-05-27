@@ -37,7 +37,7 @@ class Photographer extends Component {
         let lightDom;
 
         if(this.state.shouldLightBoxDisplay){
-            lightDom = ( <Lightbox photo={this.state.selectedPhoto} onClose={this.exitLightbox.bind(this)} /> );
+            lightDom = <Lightbox photo={this.state.selectedPhoto} onClose={this.exitLightbox.bind(this)} />;
         }
 
         return lightDom;
